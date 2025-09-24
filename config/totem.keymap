@@ -36,7 +36,7 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp ESC>;
+            bindings = <&kp TILDE>;
         };
 
         combo_backspace {
@@ -84,10 +84,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp F    &kp P        &kp B        &kp J    &kp L    &kp U      &kp Y    &kp SEMI
-           &kp A  &kp R  &kp S    &kp T        &kp G        &kp M    &kp N    &kp E      &kp I    &kp O
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp D        &kp V        &kp K    &kp H    &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
-                         &kp DEL  &lt NAV TAB  &kp SPACE    &kp RET  &kp ESC  &kp RALT
+                  &kp Q  &kp W  &kp F    &kp P        &kp B        &kp J      &kp L    &kp U      &kp Y    &kp SEMI
+                  &kp A  &kp R  &kp S    &kp T        &kp G        &kp M      &kp N    &kp E      &kp I    &kp O
+&mt LCTRL ESCAPE  &kp Z  &kp X  &kp C    &kp D        &kp V        &kp K      &kp H    &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                &kp DEL  &lt NAV TAB  &kp ENTER    &kp SPACE  &kp ESC  &kp RALT
             >;
         };
 
