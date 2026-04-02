@@ -143,10 +143,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp UNDERSCORE  &kp SQT     &kp DQT
-        &none     &none   &none     &none     &kp GRAVE    &kp C_MUTE    &none         &none           &none       &none
-&trans  &none     &none   &none     &none     &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV      &kp C_NEXT  &kp BSLH  &trans
-                          &none     &gif      &mo ADJ      &trans        &kp C_PP      &trans
+        &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp UNDERSCORE  &kp SQT     &kp DQT
+        &kp LC(A)  &none   &none     &none     &kp GRAVE    &kp C_MUTE    &none         &none           &none       &none
+&trans  &none      &none   &none     &none     &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV      &kp C_NEXT  &kp BSLH  &trans
+                           &none     &gif      &mo ADJ      &trans        &kp C_PP      &trans
             >;
         };
 
