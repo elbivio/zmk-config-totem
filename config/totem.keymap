@@ -195,10 +195,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB     &kp I      &kp LC(LALT)  &kp O      &kp LC(F20)    &msc SCRL_UP    &none            &mmv MOVE_UP    &none            &none
-       &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT  &kp SPACE      &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)  &kp LC(F19)    &msc SCRL_LEFT  &msc SCRL_RIGHT  &none           &none            &none  &none
-                              &trans        &none      &none          &mkp LCLK       &mkp RCLK        &none
+       &kp TAB     &kp I      &kp LC(LALT)  &kp O         &kp LC(F20)    &msc SCRL_UP    &none            &mmv MOVE_UP    &none            &none
+       &lt TVP2 L  &kp LEFT   &none         &kp RIGHT     &kp SPACE      &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)     &kp LC(F19)    &msc SCRL_LEFT  &msc SCRL_RIGHT  &none           &none            &none  &none
+                              &trans        &kp LEFT_ALT  &none          &mkp LCLK       &mkp RCLK        &none
             >;
         };
 
